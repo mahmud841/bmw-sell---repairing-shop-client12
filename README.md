@@ -1,23 +1,24 @@
-## [The Car Doctor](https://the-car-doctor.web.app/)
-Welcome to the car doctor. This website is a car repair service website. This repository contains client site code.
+## [The Car Doctor](https://.web.app/)
+  Welcome to the My Website.This is BMD car sell and repairing shop.Our main goal is to satisfy the customer.
 <br/>
 <br/>
-<img src="https://i.ibb.co/KLbxZwQ/cardoctor.png" />
 
-### Features:
-- Responsive MERN Stack app with firebase and admin authentication, dashboard functionality for admin and customer.
-- Customer can book service, check status, and able to give their feedback.
-- Admin can add or remove services, add new admin, and also change order status.
+
+### My Website  Features:
+- Responsive Full Stack app with firebase and admin authentication, dashboard functionality for admin and customer.
+- Any Customer can book service, check status, and able to give their feedback.
+- Only Admin can add or remove services, add new admin, and also change order status.
 
 ### Technology:
 - React js
 - React Router
+- React Router Dom
 - Material UI
 - Node js
 - Express js
 - MongoDB
 - Firebase 
 - Heroku
+- Netlify
 
-
-You can see server side code in [The Car Doctor server](https://github.com/dvlprAlamin/the-car-doctor-server)
+* ****************************** HappY Coding ****************

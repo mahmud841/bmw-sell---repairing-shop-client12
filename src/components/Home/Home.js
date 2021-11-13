@@ -4,6 +4,7 @@ import Contact from './Contact/Contact';
 import Contact2 from './Contact/Contact2';
 import HowItWorks from './HowItWorks/HowItWorks';
 import OurAchievement from './OurAchivement/OurAchievement';
+import OurCar from './OurCar/OurCar';
 import OurExpert from './OurExpert/OurExpert';
 import Services from './Services/Services';
 import Testimonial from './Testimonial/Testimonial';
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner />
             <WhyUs></WhyUs>
             <Services />
+            <OurCar></OurCar>
             <HowItWorks></HowItWorks>
             <OurExpert />
             <OurAchievement />

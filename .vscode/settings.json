@@ -1,3 +1,11 @@
 {
-  "editor.fontSize": 20
+  "editor.fontSize": 20,
+  "terminal.integrated.fontSize": 20,
+  "scm.inputFontSize": 19,
+  "debug.console.fontSize": 19,
+  "markdown.preview.fontSize": 19,
+  "tailwindCSS.rootFontSize": 20,
+  "editor.suggestFontSize": 20,
+  "editor.inlayHints.fontSize": 18,
+  "editor.codeLensFontSize": 18
 }

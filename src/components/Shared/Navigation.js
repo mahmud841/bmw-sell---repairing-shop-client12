@@ -114,10 +114,10 @@ const scrollNavItems = [
         label: 'Achievement',
         path: 'achievement'
     },
-    {
+     {
         label: 'WhyUs',
-        path: 'whyUs'
-    },
+        path: 'whyus'
+    }, 
     {
         label: 'Contact',
         path: 'contact'
@@ -139,7 +139,7 @@ const Navigation = () => {
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
     };
-    // animated scroll
+    // animated scroll view 
     const [scrollNav, setScrollNav] = useState(false);
 
     const changeNav = () => {
@@ -189,7 +189,7 @@ const Navigation = () => {
                 <ListItem button
                     className={navItemDrawer}
                 >
-                    <ListItemText primary={'Dashboard'} />
+                    <ListItemText primary={'DashBoard'} />
                 </ListItem>
             </Link>
             <Divider />
@@ -257,7 +257,7 @@ const Navigation = () => {
                            
                             <Link className={link} to='/order'>
                                 <Button>
-                                    <span className={navItem}>Dashboard</span>
+                                    <span className={navItem}>My-Dashboard</span>
                                 </Button>
                             </Link>
                         </span>

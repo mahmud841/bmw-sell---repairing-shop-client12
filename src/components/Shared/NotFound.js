@@ -10,9 +10,9 @@ const NotFound = () => {
             <Typography variant="h2">You Entered Wrong URL </Typography>
             <Button
                 variant="contained"
-                color="secondary"
+                color="primary"
                 onClick={() => history.push('/')}
-            >Go Back</Button>
+            >Go Back Dear </Button>
         </div>
     );
 };

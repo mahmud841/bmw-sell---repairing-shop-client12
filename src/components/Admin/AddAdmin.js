@@ -11,7 +11,7 @@ const AddAdmin = () => {
     }
     const addAdminHandler = (e) => {
         e.preventDefault();
-        axios.post('https://arcane-sands-09318.herokuapp.com/addAdmin', email)
+        axios.post('http://localhost:5000/addAdmin', email)
             .then(res => {
                 if (res.data) {
                     e.target.reset();
@@ -39,7 +39,7 @@ const AddAdmin = () => {
                     <Button
                         type="submit"
                         variant="contained"
-                        color="secondary">Add</Button>
+                        color="secondary">Add Button </Button>
                 </form>
             </Container>
         </>

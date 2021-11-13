@@ -29,7 +29,7 @@ const ServiceSingle = ({ service }) => {
                 <div style={{ height: 3, width: 50, background: '#F2184F' }}></div>
                 <Typography variant="h4" color="secondary" style={{ fontWeight: 700, marginTop: 10 }}>${fee}</Typography>
                 <Typography variant="body1" style={{ margin: '10px 0' }}>{description}</Typography>
-                <Button onClick={selectServiceHandler} variant="contained" style={{ background: '#202C45', color: '#fff' }}> Our Repairing Service </Button>
+                <Button onClick={selectServiceHandler} variant="contained" style={{ background: '#202C45', color: '#fff' }}>Repair service </Button>
             </div>
         </Paper >
     );

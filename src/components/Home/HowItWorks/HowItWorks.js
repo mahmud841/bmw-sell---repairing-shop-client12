@@ -27,7 +27,7 @@ function HowItWorks() {
   const classes = useStyles();
   return (
     <div className="container">
-      <h1>How It Works? You can show here </h1>
+      <h1 className="text-center works-system">How It Works? You can show here </h1>
 
       <Timeline align="alternate">
         <TimelineItem>

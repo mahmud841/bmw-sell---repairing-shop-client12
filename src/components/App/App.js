@@ -23,7 +23,7 @@ const App = () => {
   const { isAdmin } = GetContext();
 
   return (
-
+//**********All Route Set-up******************** */
     <Router>
       <Switch>
         <PublicRoute exact path='/' component={Home} />

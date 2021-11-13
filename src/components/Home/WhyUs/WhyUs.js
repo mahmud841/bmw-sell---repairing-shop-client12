@@ -10,7 +10,7 @@ import banner_5 from '../../../image/banner/banner_5.png';
 
 function WhyUs() {
   return (
-    <div className="component">
+      <div className="component">
       <div className="banner">
         <div>
           <img className="banner__image" src={banner_2} alt="WYPE LOGO" />
@@ -20,7 +20,7 @@ function WhyUs() {
           <h1 className="banner__heading">THE BEST CAR SERVICE AWAITS YOU</h1>
           <br></br>
           <p className="banner__para">
-            Your Car deserves nothing but the best car repair and services in
+            Your Car deserves nothing but the best car seller and repair services in
             town. Book a seemless car service experience with us.
           </p>
         </div>
@@ -114,7 +114,10 @@ function WhyUs() {
         </div>
       </div>
     </div>
+
   );
 }
 
 export default WhyUs;
+
+

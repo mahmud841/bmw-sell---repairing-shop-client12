@@ -11,7 +11,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
 import { useState } from 'react';
 import { Link, useLocation } from "react-router-dom";
-import logo from '../../../image/logo.png'
+import logo from '../../../image/logo.jpg'
 import { Home } from '@material-ui/icons';
 import Logout from '../Logout';
 const drawerWidth = 200;

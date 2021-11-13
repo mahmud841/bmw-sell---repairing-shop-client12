@@ -5,6 +5,7 @@ import { Card, CardContent } from "@material-ui/core";
 
 function Contact2() {
   return (
+    //************Contact More Details*************** */
     <div className="container">
       <h1 className="text-center">We're all ears!</h1>
 

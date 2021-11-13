@@ -16,7 +16,7 @@ const OurCar = () => {
     const ourCars= [
         {
             img: car1,
-            name: 'X5 M Sports Activity Carr  ',
+            name: 'X5 M Sports Activity Cars  ',
             price: '$43,700 Starting MSRP'
         },
         {

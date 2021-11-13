@@ -37,7 +37,7 @@ const OrderedServices = () => {
                                     <TableCell>Email</TableCell>
                                     <TableCell>Service</TableCell>
                                     <TableCell>Pay with</TableCell>
-                                    <TableCell>Status</TableCell>
+                                    <TableCell>Statuss</TableCell>
                                 </TableRow>
                                 {
                                     orders.map(({ _id, name, email, service, status }) =>

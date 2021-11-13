@@ -30,7 +30,7 @@ const FooterTop = () => {
         <Grid container spacing={3} style={{ padding: '20px 0', marginTop: 0 }}>
             <Grid item md={3} sm={6} xs={12}>
                 <img width="100%" src={logo} alt="logo" />
-                <Typography variant="body1">207, Sports building,Nanjing Street, Shanghai, China</Typography>
+                <Typography variant="body1">207, Sports building,Nanjing Street, Dhanmondi, Dhaka</Typography>
                 <List>
                     <ListItem>
                         <ListItemIcon>

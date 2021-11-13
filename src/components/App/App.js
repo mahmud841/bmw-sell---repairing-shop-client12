@@ -23,12 +23,14 @@ const App = () => {
   const { isAdmin } = GetContext();
 
   return (
-//**********All Route Set-up******************** */
+//********************All Route Set-up******************** */
     <Router>
       <Switch>
         <PublicRoute exact path='/' component={Home} />
         <PublicRoute exact path='/login' component={LoginSignUp} />
         <PublicRoute exact path='/signup' component={LoginSignUp} />
+        
+ {/*********** ************ Private Routing**********************  */}
         <PrivateRoute exact path='/order'>
           {isAdmin ? <OrderedServices /> : <Order />}
         </PrivateRoute>

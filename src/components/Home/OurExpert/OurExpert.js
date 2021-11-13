@@ -13,22 +13,22 @@ const OurExpert = () => {
         {
             img: mechanic1,
             name: 'Andrew Smith2',
-            expertize: '-Engine Expert-'
+            expertize: '*Engine Expert*'
         },
         {
             img: mechanic2,
             name: 'Johna Anderson',
-            expertize: '-Polishing Expert-'
+            expertize: '*Polishing Expert*'
         },
         {
             img: mechanic3,
             name: 'Zakaria Smith Junior',
-            expertize: '-Coloring Expert-'
+            expertize: '*Coloring Expert*'
         },
         {
             img: mechanic4,
             name: 'Corey Anderson',
-            expertize: '-Alrounder Expert-'
+            expertize: '*Alrounder Expert*'
         },
     ]
     return (

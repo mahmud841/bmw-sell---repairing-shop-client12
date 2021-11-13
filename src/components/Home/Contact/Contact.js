@@ -57,11 +57,11 @@ const Contact = () => {
             className={textArea}
             rows={5}
             name="message"
-            placeholder="Enter your message"
+            placeholder="Enter your message here"
           />
         </Grid>
         <Grid item lg={12} xs={12} style={{ textAlign: 'center' }}>
-          <Button size="large" variant="contained" style={{ background: '#202C45', color: '#fff' }}>Send Message</Button>
+          <Button size="large" variant="contained" style={{ background: '#202C45', color: '#fff' }}>Send Text Message</Button>
         </Grid>
       </Grid>
     </Container>

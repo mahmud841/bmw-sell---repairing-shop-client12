@@ -115,8 +115,8 @@ const scrollNavItems = [
         path: 'achievement'
     },
      {
-        label: 'WhyUs',
-        path: 'whyus'
+        label: 'Explore',
+        path: 'explore'
     }, 
     {
         label: 'Contact',
@@ -143,7 +143,7 @@ const Navigation = () => {
     const [scrollNav, setScrollNav] = useState(false);
 
     const changeNav = () => {
-        if (window.scrollY >= 85) {
+        if (window.scrollY >= 95) {
             setScrollNav(true);
         } else {
             setScrollNav(false);

@@ -16,11 +16,9 @@ const useStyle = makeStyles({
 
 const OurCar2 = ({ car }) => {
 
-  // const { setSelectedService } = GetContext()
-  //   const selectServiceHandler = () => {
-  //       setSelectedService(service)
-  //       history.push('/order')
-  //   }
+  // const selectServiceHandler = () => {
+  //   setSelectedService(service)
+  //   history.push('/order')
   
     const { root } = useStyle();
     const { img, name, price } = car;

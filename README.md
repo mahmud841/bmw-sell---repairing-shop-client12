@@ -9,6 +9,8 @@
 - Responsive Full Stack Website with firebase and admin authentication, have dashboard functionality for admin and customer.
 - Any Customer can book service, check status, and able to give their feedback very easily.
 - Only Admin can add or remove services, add new admin, and also change order status figure.
+- AnyBody can order for repair their car servicing, will see repairing cost as well.
+- From seeing UI, User will be know the working process very easily .
 
 ### Technology Used in My Website:
 - React js
